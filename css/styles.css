@@ -1,12 +1,290 @@
-.test-link{
+/*webstudio*/
+body {
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Raleway', sans-serif;
+}
+/*Header*/
+.header {
+}
+.webstudio {
+}
+.web {
+  color: #2196f3;
+}
+.studio {
+  color: #000000;
+}
+.navigation {
+}
+.list-nav {
+}
+.nav-item {
+}
+.links {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #212121;
+}
+.contacts {
+}
+.contacts-mail {
+}
+.link-mail {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #757575;
+}
+.contacts-tel {
+}
+.link-tel {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #757575;
+}
+
+
+/* Особенности*/
+.main-portfolio {
+}
+.portfolio {
+}
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  /* or 136% */
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
   color: black;
 }
-.test-link:hover{
-  color: rgb(255, 102, 0);
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
 }
-.link-tel-ftr{
-  color: blue;
+.btn {
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
-.link-tel-ftr:hover{
-  color: aqua;
+.text-btn {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 188% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  color: #ffffff;
 }
+.btn:autofocus {
+}
+.hide {
+}
+.title-hiden {
+}
+.list-hide {
+}
+.item-hide {
+}
+.hide-title {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #212121;
+}
+.hide-text{
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+.work {
+}
+.title-work {
+}
+.list-work {
+}
+.item-work {
+}
+.team {
+}
+.title-team {
+}
+.list-team {
+}
+.item-team {
+}
+.team-title {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+.team-text {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+
+
+/*Наша команда*/
+
+
+/* Подвал*/
+.container {
+  background-color: #000000;
+}
+.country {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+}
+.mail-foot,
+.tel-foot {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+.mail-foot:hover{
+  color: tomato;
+} 
+.tel-foot:hover {
+  color: tomato;
+}
+/*Porfolio*/
+.main-content {
+}
+.menu-btn-all {
+}
+.menu-btn-web {
+}
+.menu-btn-app {
+}
+.menu-btn-dzn {
+}
+.menu-btn-markt {
+}
+.porfolio-card {
+}
+.porfolio-link-card-one {
+}
+.title-card {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  /* identical to box height, or 200% */
+
+  letter-spacing: 0.06em;
+
+  color: #212121;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.item {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 188% */
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+.porfolio-link-card-two {
+}
+.porfolio-link-card-three {
+}
+.porfolio-link-card-four {
+}
+.porfolio-link-card-five {
+}
+.porfolio-link-card-six {
+}
+.porfolio-link-card-seven {
+}
+.porfolio-link-card-eight {
+}
+.porfolio-link-card-nine {
+}
+
+
+
+
+
+
