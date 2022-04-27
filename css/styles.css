@@ -230,8 +230,7 @@ h2 {
 }
 .section-portfolio {
 }
-.portfolio-title{
-
+.portfolio-title {
 }
 .menu-btn:hover,
 .menu-btn:focus {
@@ -288,4 +287,7 @@ h2 {
   letter-spacing: 0.03em;
 
   color: #757575;
+}
+li {
+  list-style-type: none;
 }
