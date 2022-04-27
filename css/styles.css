@@ -9,8 +9,6 @@ body {
 .header {
 }
 .webstudio {
-}
-.web {
   color: #2196f3;
 }
 .studio {
@@ -185,7 +183,7 @@ h2 {
 /*Наша команда*/
 
 /* Подвал*/
-.web-footer {
+.webstudio-footer {
   color: #2196f3;
 }
 .studio-footer {
@@ -233,7 +231,7 @@ h2 {
 .section-portfolio {
 }
 .portfolio-title{
-  
+
 }
 .menu-btn:hover,
 .menu-btn:focus {
