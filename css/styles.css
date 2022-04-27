@@ -2,6 +2,8 @@
 body {
   font-family: 'Roboto', sans-serif;
   font-family: 'Raleway', sans-serif;
+  background: #ffffff;
+  color: #000000;
 }
 /*Header*/
 .header {
@@ -18,17 +20,24 @@ body {
 }
 .list-nav {
 }
-.nav-item {
+.item-navigation {
 }
-.links {
+.link-navigation {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: normal;
   letter-spacing: 0.02em;
 
   color: #212121;
+}
+.current {
+  color: #2196f3;
+}
+.link-navigation:hover,
+.link-navigation:focus {
+  color: #2196f3;
 }
 .contacts {
 }
@@ -39,10 +48,14 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: normal;
   letter-spacing: 0.02em;
 
   color: #757575;
+}
+.link-mail:hover,
+.link-mail:focus {
+  color: #2196f3;
 }
 .contacts-tel {
 }
@@ -51,55 +64,52 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: normal;
   letter-spacing: 0.02em;
-
   color: #757575;
 }
-
+.link-tel:hover,
+.link-tel:focus {
+  color: #2196f3;
+}
 
 /* Особенности*/
-.main-portfolio {
+main-home {
 }
-.portfolio {
+.home {
+  background: #2f303a;
 }
-h1 {
+.home-title {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
-  /* or 136% */
+  line-height: normal;
 
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-
-  color: black;
+  color: #ffffff;
+}
+.btn-home {
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
 }
 h2 {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
-  text-align: center;
-  letter-spacing: 0.03em;
+  line-height: normal;
 
   color: #212121;
 }
-.btn {
-  background: #2196f3;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-}
+
 .text-btn {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
-  line-height: 30px;
-  /* identical to box height, or 188% */
+  line-height: normal;
 
   display: flex;
   align-items: center;
@@ -108,7 +118,7 @@ h2 {
 
   color: #ffffff;
 }
-.btn:autofocus {
+.btn {
 }
 .hide {
 }
@@ -123,18 +133,16 @@ h2 {
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: normal;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
   color: #212121;
 }
-.hide-text{
+.hide-text {
   font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: normal;
   /* or 171% */
 
   letter-spacing: 0.03em;
@@ -162,33 +170,27 @@ h2 {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
-  /* identical to box height */
-
-  text-align: center;
-  letter-spacing: 0.03em;
+  line-height: normal;
 
   color: #212121;
 }
 .team-text {
   font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
-  line-height: 19px;
-  /* identical to box height */
-
-  text-align: center;
-  letter-spacing: 0.03em;
+  line-height: normal;
 
   color: #757575;
 }
 
-
 /*Наша команда*/
 
-
 /* Подвал*/
+.web-footer {
+  color: #2196f3;
+}
+.studio-footer {
+  color: #ffffff;
+}
 .container {
   background-color: #000000;
 }
@@ -197,56 +199,79 @@ h2 {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: normal;
   /* or 171% */
 
   letter-spacing: 0.03em;
 
   color: #ffffff;
 }
-.mail-foot,
-.tel-foot {
+.mail-footer,
+.tel-footer {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: normal;
   /* or 171% */
 
   letter-spacing: 0.03em;
 
   color: #757575;
 }
-.mail-foot:hover{
-  color: tomato;
-} 
-.tel-foot:hover {
-  color: tomato;
+.mail-footer:hover,
+.mail-footer:focus {
+  color: #2196f3;
+}
+.tel-footer:hover,
+.tel-footer:focus {
+  color: #2196f3;
 }
 /*Porfolio*/
-.main-content {
+.main-portfolio {
 }
-.menu-btn-all {
+.section-portfolio {
 }
-.menu-btn-web {
+.menu-btn:hover,
+.menu-btn:focus {
+  background: #2196f3;
+  color: #ffffff;
 }
-.menu-btn-app {
-}
-.menu-btn-dzn {
-}
-.menu-btn-markt {
+
+.menu-btn {
+  width: 128px;
+  height: 38px;
+  left: 576px;
+  top: 174px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: normal;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+  background: #f5f4fa;
+  border-radius: 4px;
+  color: #212121;
+  cursor: pointer;
 }
 .porfolio-card {
 }
-.porfolio-link-card-one {
+.project-item-web {
 }
-.title-card {
+.project-item-design {
+}
+.project-item-marketing {
+}
+.project-item-applications {
+}
+.title-project {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
-  line-height: 36px;
-  /* identical to box height, or 200% */
+  line-height: normal;
 
   letter-spacing: 0.06em;
 
@@ -254,37 +279,12 @@ h2 {
 
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.item {
+.project-text {
   font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
-  line-height: 30px;
-  /* identical to box height, or 188% */
+  line-height: normal;
 
   letter-spacing: 0.03em;
 
   color: #757575;
 }
-.porfolio-link-card-two {
-}
-.porfolio-link-card-three {
-}
-.porfolio-link-card-four {
-}
-.porfolio-link-card-five {
-}
-.porfolio-link-card-six {
-}
-.porfolio-link-card-seven {
-}
-.porfolio-link-card-eight {
-}
-.porfolio-link-card-nine {
-}
-
-
-
-
-
-
